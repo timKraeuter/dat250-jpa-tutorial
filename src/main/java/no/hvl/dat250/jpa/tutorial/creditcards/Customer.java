@@ -22,7 +22,7 @@ public class Customer {
     @Getter
     private Collection<Address> addresses = new ArrayList<>();
 
-    @OneToMany
+    @ManyToMany
     @Getter
     private Collection<CreditCard> creditCards = new ArrayList<>();
 }

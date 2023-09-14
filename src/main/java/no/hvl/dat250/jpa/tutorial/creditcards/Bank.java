@@ -25,6 +25,5 @@ public class Bank {
 
     @OneToMany(mappedBy = "bank")
     @Getter
-    @Setter
     private Collection<CreditCard> creditCards = new ArrayList<>();
 }
